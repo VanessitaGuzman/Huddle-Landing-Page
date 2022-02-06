@@ -17,7 +17,7 @@
 }
 
 html {
-  background-image: url("/images/bg-desktop.svg");
+  background-image: url("../images/bg-desktop.svg");
   background-color: hsl(257, 40%, 49%);
 }
 
@@ -110,7 +110,7 @@ a:hover {
 @media only screen and (max-width: 1033px) {
   body {
     margin: auto;
-    background-image: image("/images/bg-mobile.svg");
+    background-image: image("../images/bg-mobile.svg");
   }
 
   .layout {
